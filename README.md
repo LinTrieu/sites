@@ -6,9 +6,9 @@
 - Laravel Scaffold ✅
 - Database Setup ✅
 - Authentication Scaffolding ✅
-- Building a List of Links
-- Routing and Views
-- Displaying the Link Submission Form
+- Building a List of Links ✅
+- Routing and Views ✅
+- Displaying the Link Submission Form ✅
 - Submitting the Form
 - Testing the Form Submission
 - Saving a valid link
