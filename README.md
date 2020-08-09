@@ -9,7 +9,7 @@
 - Building a List of Links ✅
 - Routing and Views ✅
 - Displaying the Link Submission Form ✅
-- Submitting the Form
+- Submitting the Form ✅
 - Testing the Form Submission
 - Saving a valid link
 - Testing Failed Validation
