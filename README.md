@@ -10,7 +10,7 @@
 - Routing and Views ✅
 - Displaying the Link Submission Form ✅
 - Submitting the Form ✅
-- Testing the Form Submission
+- Testing the Form Submission ✅
 - Saving a valid link
 - Testing Failed Validation
 - Testing URL Validation
