@@ -94,6 +94,10 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+
+                @foreach ($links as $link)
+                    <a href="{{ $link->url }}">{{ $link->title }}</a>
+                @endforeach
             </div>
         </div>
     </body>
