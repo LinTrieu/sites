@@ -11,8 +11,8 @@
 - Displaying the Link Submission Form ✅
 - Submitting the Form ✅
 - Testing the Form Submission ✅
-- Saving a valid link
-- Testing Failed Validation
-- Testing URL Validation
-- Testing Max Length Validation
-- Conclusion
+- Saving a valid link ✅
+- Testing Failed Validation ✅ ️
+- Testing URL Validation  ⬅️  ⬅️  ⬅️  ⬅️  ⬅️  ⬅️ 
+- Testing Max Length Validation ❌
+- Conclusion ❌
