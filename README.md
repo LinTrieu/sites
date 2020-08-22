@@ -1,7 +1,7 @@
 # Sites & Links MVC Web App
 
-- Tutorial to use PHP, Laravel and built-in Auth 
-- https://laravel-news.com/your-first-laravel-application
+Tutorial to use PHP, Laravel and built-in Auth:  
+https://laravel-news.com/your-first-laravel-application
 
 - Laravel Scaffold ✅
 - Database Setup ✅
@@ -17,7 +17,7 @@
 - Testing Max Length Validation ✅ 
 - Conclusion ✅ 
 
-# Notes for Development 
+## Notes for Development 
 
 - `php artisan serve` - start a local host development server at http://127.0.0.1:8000
 - `php artisan make:model Models/{ModelName} -m` - create model and migration 
