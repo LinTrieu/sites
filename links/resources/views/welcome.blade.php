@@ -48,7 +48,7 @@
                 font-size: 84px;
             }
 
-            .links > a {
+            .navigationBar > a {
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 13px;
@@ -84,7 +84,7 @@
                     Laravel
                 </div>
 
-                <div class="links">
+                <div class="navigationBar">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
@@ -94,10 +94,16 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
-
+                <br>
+                <div class="newLink">
+                <button type="button" onclick="window.location.href='./submit';">Add a new Link</button>
+                </div>
+                <br>
+                <div class="links">
                 @foreach ($links as $link)
-                    <a href="{{ $link->url }}">{{ $link->title }}</a>
+                    <a href="{{ $link->url }}">{{ $link->title }}</a><br>
                 @endforeach
+                </div>
             </div>
         </div>
     </body>
