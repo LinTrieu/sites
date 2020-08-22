@@ -2,10 +2,11 @@
 
 namespace Tests\Feature;
 
-use Dotenv\Exception\ValidationException;
+use Illuminate\Validation\ValidationException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+
 
 class SubmitLinksTest extends TestCase
 {
@@ -39,7 +40,8 @@ class SubmitLinksTest extends TestCase
     }
 
     /** @test */
-    function link_is_not_created_with_an_invalid_url() {
+    function link_is_not_created_with_a_valid_url()
+    {
         $this->withoutExceptionHandling();
 
         $cases = ['//invalid-url.com', '/invalid-url', 'foo.com'];
@@ -56,10 +58,11 @@ class SubmitLinksTest extends TestCase
                     'The url format is invalid.',
                     $e->validator->errors()->first('url')
                 );
-            };
-            continue;
+                continue;
+            }
+
+            $this->fail("The URL $case passed validation when it should have failed.");
         }
-        $this->fail('The URL $case passed validation when it should have failed.');
     }
 
 //    /** @test */
